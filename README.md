@@ -17,9 +17,9 @@ import React, { Component } from 'react'
 import { FullscreenMenu } from 'react-fullscreen-menu'
 import 'react-fullscreen-menu/dist/index.css'
 
-class Example extends Component {
+function Example {
 
-  export const dataMenu = [
+const dataMenu = [
   {
     label: 'Chi siamo',
     url: 'chi-siamo',
@@ -107,10 +107,7 @@ class Example extends Component {
     sub_menu: null
   }
 ]
-
-  render() {
-    return <MyComponent data={dataMenu} position="left"/>
-  }
+  return <FullscreenMenu data={dataMenu} position="left"/>
 }
 ```
 
