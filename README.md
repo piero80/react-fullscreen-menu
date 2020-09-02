@@ -14,8 +14,7 @@ npm install --save react-fullscreen-menu
 
 ```jsx
 import React, { Component } from 'react'
-
-import MyComponent from 'react-fullscreen-menu'
+import { FullscreenMenu } from 'react-fullscreen-menu'
 import 'react-fullscreen-menu/dist/index.css'
 
 class Example extends Component {
