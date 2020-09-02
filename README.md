@@ -19,7 +19,7 @@ import 'react-fullscreen-menu/dist/index.css'
 
 function Example {
 
-const dataMenu = [
+  export const dataMenu = [
   {
     label: 'Chi siamo',
     url: 'chi-siamo',
@@ -107,7 +107,10 @@ const dataMenu = [
     sub_menu: null
   }
 ]
-  return <FullscreenMenu data={dataMenu} position="left"/>
+
+  render() {
+    return <FullscreenMenu data={dataMenu} position="left"/>
+  }
 }
 ```
 
