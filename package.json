@@ -2,11 +2,14 @@
   "name": "react-fullscreen-menu",
   "version": "1.0.0",
   "description": "Simple Fullscreen Menu in React with Css Transition",
-  "author": "piero80/react-fullscreen-menu",
+  "author": "Pietro Colangelo",
   "license": "(MIT)",
-  "repository": "piero80/react-fullscreen-menu",
+  "repository": "https://github.com/piero80/react-fullscreen-menu.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "source": "src/index.js",
   "engines": {
     "node": ">=10"
