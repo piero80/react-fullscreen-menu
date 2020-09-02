@@ -115,6 +115,11 @@ class Example extends Component {
 }
 ```
 
+## Props
+
+**data: Array** (required) <br /> <br />
+**position: string** (required)
+
 ## License
 
 (MIT) © [piero80/react-fullscreen-menu](https://github.com/piero80/react-fullscreen-menu)
