@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="23px" viewBox="0 0 32 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Mobile-contatti-Copy" transform="translate(-271.000000, -19.000000)" stroke="#000000">
+            <g id="Group" transform="translate(271.000000, 19.000000)">
+                <line x1="0.444444444" y1="1.5" x2="32" y2="1" id="Line-4"></line>
+                <line x1="0.444444444" y1="11.5" x2="32" y2="11" id="Line-4"></line>
+                <line x1="0.444444444" y1="22.5" x2="32" y2="22" id="Line-4"></line>
+            </g>
+        </g>
+    </g>
+</svg>

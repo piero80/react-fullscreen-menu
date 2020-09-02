@@ -1,10 +1,10 @@
 import React from 'react'
-
-import { ExampleComponent } from 'react-fullscreen-menu'
+import { FullscreenMenu } from 'react-fullscreen-menu'
 import 'react-fullscreen-menu/dist/index.css'
+import { dataMenu } from './api/model'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <FullscreenMenu data={dataMenu} position='left' />
 }
 
 export default App
