@@ -7,9 +7,6 @@
   "repository": "https://github.com/piero80/react-fullscreen-menu.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/piero80"
-  },
   "source": "src/index.js",
   "engines": {
     "node": ">=10"
