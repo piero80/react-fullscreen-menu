@@ -58,7 +58,9 @@ function Menu({ open, setOpen, data }) {
           {data.map((item, index) => (
             <li
               className={item.sub_menu ? 'item-level-1' : ''}
-              onClick={() => openSubMenu(index)}
+              onClick={() => {
+                item.sub_menu ? openSubMenu(index) : null
+              }}
               key={`item-${index}`}
             >
               <a href={item.url}>{item.label}</a>
