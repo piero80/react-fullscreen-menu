@@ -1,7 +1,7 @@
 {
   "name": "react-fullscreen-menu",
-  "version": "1.0.0",
-  "description": "Simple Fullscreen Menu in React with Css Transition",
+  "version": "1.0.1",
+  "description": "Simple Fullscreen Menu in React with Css Transition and Styled Component",
   "author": "Pietro Colangelo",
   "license": "(MIT)",
   "repository": "https://github.com/piero80/react-fullscreen-menu.git",
