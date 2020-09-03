@@ -1,5 +1,5 @@
 {
-  "name": "react-fullscreen-menu",
+  "name": "@piero80/react-fullscreen-menu",
   "version": "1.0.1",
   "description": "Simple Fullscreen Menu in React with Css Transition and Styled Component",
   "author": "Pietro Colangelo",
@@ -8,7 +8,7 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/piero80"
   },
   "source": "src/index.js",
   "engines": {
