@@ -17,8 +17,8 @@ npm install --save styled-components
 
 ```jsx
 import React, { Component } from 'react'
-import { FullscreenMenu } from 'react-fullscreen-menu'
-import 'react-fullscreen-menu/dist/index.css'
+import { FullscreenMenu } from '@colpi/react-fullscreen-menu'
+import '@colpi/react-fullscreen-menu/dist/index.css'
 
 function Example {
 
