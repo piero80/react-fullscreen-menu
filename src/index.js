@@ -8,7 +8,7 @@ import { ReactComponent as BackIcon } from './images/back.svg'
 export const FullscreenMenu = ({ data, position }) => {
   const [open, setOpen] = useState(false)
   return (
-    <div className='App'>
+    <div className='menu-burger-container'>
       <MenuBurger open={open} setOpen={setOpen} position={position}>
         <Menu open={open} data={data} setOpen={setOpen}></Menu>
       </MenuBurger>
