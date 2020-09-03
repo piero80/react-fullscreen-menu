@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Install
 
 ```bash
-npm install --save react-fullscreen-menu
+npm install --save @colpi/react-fullscreen-menu
 npm install --save styled-components
 ```
 
