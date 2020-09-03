@@ -1,5 +1,5 @@
 {
-  "name": "@piero80/react-fullscreen-menu",
+  "name": "react-fullscreen-menu",
   "version": "1.0.2",
   "description": "Simple Fullscreen Menu in React with Css Transition and Styled Component",
   "author": "Pietro Colangelo",

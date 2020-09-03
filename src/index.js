@@ -1,6 +1,7 @@
 import React, { useState, Fragment } from 'react'
 import { StyledIcon } from './Icon.styled'
-import { StyledMenu } from './Menu.styled'
+import { StyledMenu, StyledContainer } from './Menu.styled'
+
 import { ReactComponent as CloseIcon } from './images/close.svg'
 import { ReactComponent as MenuIcon } from './images/menu.svg'
 import { ReactComponent as BackIcon } from './images/back.svg'
@@ -8,11 +9,11 @@ import { ReactComponent as BackIcon } from './images/back.svg'
 export const FullscreenMenu = ({ data, position }) => {
   const [open, setOpen] = useState(false)
   return (
-    <div className='menu-burger-container'>
+    <StyledContainer>
       <MenuBurger open={open} setOpen={setOpen} position={position}>
         <Menu open={open} data={data} setOpen={setOpen}></Menu>
       </MenuBurger>
-    </div>
+    </StyledContainer>
   )
 }
 
@@ -37,6 +38,7 @@ function Menu({ open, setOpen, data }) {
   const [selectedItemMenu, toggleMenu] = useState(-1)
 
   function openSubMenu(index) {
+    console.log('CLICK')
     toggleMenu(selectedItemMenu === index ? -1 : index)
     setSub(!sub)
   }

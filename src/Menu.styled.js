@@ -1,5 +1,9 @@
 import styled from 'styled-components'
 
+export const StyledContainer = styled.div`
+  position: fixed;
+`
+
 export const StyledMenu = styled.section`
   position: fixed;
   top: 0;
