@@ -1,3 +1,5 @@
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 # react-fullscreen-menu
 
 > Simple Fullscreen Menu in React with Css Transition
@@ -7,8 +9,8 @@
 ## Install
 
 ```bash
-npm install --save styled-components
 npm install --save react-fullscreen-menu
+npm install --save styled-components
 ```
 
 ## Usage
