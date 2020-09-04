@@ -1,29 +1,80 @@
 import React, { useState, Fragment } from 'react'
-import { StyledIcon } from './Icon.styled'
+import { StyledIcon, SVG } from './Icon.styled'
 import { StyledMenu, StyledContainer } from './Menu.styled'
 
 import { ReactComponent as CloseIcon } from './images/close.svg'
-import { ReactComponent as MenuIcon } from './images/menu.svg'
 import { ReactComponent as BackIcon } from './images/back.svg'
 
-export const FullscreenMenu = ({ data, position }) => {
+export const FullscreenMenu = ({ data, position, colorIcon }) => {
   const [open, setOpen] = useState(false)
+
   return (
     <StyledContainer>
-      <MenuBurger open={open} setOpen={setOpen} position={position}>
+      <MenuBurger
+        open={open}
+        setOpen={setOpen}
+        position={position}
+        colorIcon={colorIcon}
+      >
         <Menu open={open} data={data} setOpen={setOpen}></Menu>
       </MenuBurger>
     </StyledContainer>
   )
 }
 
-function MenuBurger({ open, setOpen, children, position }) {
+function MenuBurger({ open, setOpen, children, position, colorIcon }) {
+  const Icon = (props) => {
+    return (
+      <SVG
+        xmlns='http://www.w3.org/2000/svg'
+        xmlnsXlink='http://www.w3.org/1999/xlink'
+        {...props}
+      >
+        <g
+          id='HP'
+          stroke='none'
+          strokeWidth='2'
+          fill='none'
+          fillRule='evenodd'
+          strokeLinecap='square'
+        >
+          <g transform='translate(-271.000000, -19.000000)' stroke={colorIcon}>
+            <g id='Group' transform='translate(271.000000, 19.000000)'>
+              <line x1='0.444444444' y1='1.5' x2='32' y2='1' id='Line-4'></line>
+              <line
+                x1='0.444444444'
+                y1='11.5'
+                x2='32'
+                y2='11'
+                id='Line-4'
+              ></line>
+              <line
+                x1='0.444444444'
+                y1='22.5'
+                x2='32'
+                y2='22'
+                id='Line-4'
+                strokeWidth='3'
+              ></line>
+            </g>
+          </g>
+        </g>
+      </SVG>
+    )
+  }
   return (
     <Fragment>
-      <StyledIcon position={position}>
+      <StyledIcon position={position} colorIcon={colorIcon}>
         <span className='navbar-menu'>
           <div className='menu-btn' open={open} onClick={() => setOpen(!open)}>
-            <MenuIcon />
+            <Icon
+              fill='inherit'
+              stroke={colorIcon}
+              strokeWidth='2px'
+              width='32px'
+              height='23px'
+              name='icon-home'
+            />
           </div>
         </span>
       </StyledIcon>
@@ -38,7 +89,6 @@ function Menu({ open, setOpen, data }) {
   const [selectedItemMenu, toggleMenu] = useState(-1)
 
   function openSubMenu(index) {
-    console.log('CLICK')
     toggleMenu(selectedItemMenu === index ? -1 : index)
     setSub(!sub)
   }

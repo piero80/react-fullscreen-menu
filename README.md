@@ -112,7 +112,7 @@ function Example {
 ]
 
   render() {
-    return <FullscreenMenu data={dataMenu} position="left"/>
+    return <FullscreenMenu data={dataMenu} position="left" colorIcon="black"/>
   }
 }
 ```
@@ -121,6 +121,7 @@ function Example {
 
 **data: Array** (required) <br /> <br />
 **position: string** (required)
+**colorIcon: string** (required)
 
 ## License
 
