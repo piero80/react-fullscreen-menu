@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 > Simple Fullscreen Menu in React with Css Transition
 
-[![NPM](https://img.shields.io/npm/v/react-fullscreen-menu.svg)](https://www.npmjs.com/package/react-fullscreen-menu) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@colpi/react-fullscreen-menu.svg)](https://www.npmjs.com/package/@colpi/react-fullscreen-menu) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ![alt text](https://github.com/piero80/react-fullscreen-menu/blob/master/example/public/screen.png)
 
