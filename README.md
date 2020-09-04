@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [![NPM](https://img.shields.io/npm/v/react-fullscreen-menu.svg)](https://www.npmjs.com/package/react-fullscreen-menu) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-[![INSERT YOUR GRAPHIC HERE](http://i.imgur.com/dt8AUb6.png)]()
+![alt text](https://github.com/piero80/react-fullscreen-menu/blob/master/example/public/screen.png
 
 ## Install
 
