@@ -119,8 +119,8 @@ function Example {
 
 ## Props
 
-**data: Array** (required) <br /> <br />
-**position: string** (required)
+**data: Array** (required) <br />
+**position: string** (required) <br />
 **colorIcon: string** (required)
 
 ## License
