@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Demo & examples
 
-Live demo: [piero80/react-fullscreen-menu](https://codesandbox.io/s/react-fullscreen-menu-weil3)
+Live demo: [react-fullscreen-menu](https://codesandbox.io/s/react-fullscreen-menu-weil3)
 
 ![alt text](https://github.com/piero80/react-fullscreen-menu/blob/master/example/public/screen.png?raw=true)
 
