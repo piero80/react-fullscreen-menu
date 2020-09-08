@@ -1,6 +1,6 @@
 {
   "name": "@colpi/react-fullscreen-menu",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Simple Fullscreen Menu in React with Css Transition and Styled Component",
   "author": "Pietro Colangelo",
   "license": "(MIT)",
