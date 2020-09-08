@@ -10,9 +10,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Install
 
+Including react-fullscreen-menu in your page. If you use this, make sure you have already included React, and it is available as a global variable.
+
 ```bash
-npm install --save @colpi/react-fullscreen-menu
 npm install --save styled-components
+npm install --save @colpi/react-fullscreen-menu
 ```
 
 ## Usage
@@ -20,7 +22,6 @@ npm install --save styled-components
 ```jsx
 import React, { Component } from 'react'
 import { FullscreenMenu } from '@colpi/react-fullscreen-menu'
-import '@colpi/react-fullscreen-menu/dist/index.css'
 
 function Example {
 
@@ -124,30 +125,6 @@ function Example {
 **data: Array** (required) <br />
 **position: string** (required) <br />
 **colorIcon: string** (required)
-
-## Running Locally
-
-clone repo
-
-`git clone git@github.com:piero80/react-fullscreen-menu.git`
-
-move into folder
-
-`cd ~/react-fullscreen-menu`
-
-install dependencies
-
-`npm install`
-
-move into folder example
-
-`cd ~/react-fullscreen-menu/example`
-
-run dev mode
-
-`npm start`
-
-open your browser and visit: `http://localhost:3000/`
 
 ## License
 
