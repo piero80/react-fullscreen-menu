@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [![NPM](https://img.shields.io/npm/v/@colpi/react-fullscreen-menu.svg)](https://www.npmjs.com/package/@colpi/react-fullscreen-menu) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+- <a href="https://codesandbox.io/s/ancient-star-weil3" target="_blank">**Demo**</a>
+
 ![alt text](https://github.com/piero80/react-fullscreen-menu/blob/master/example/public/screen.png?raw=true)
 
 ## Install
