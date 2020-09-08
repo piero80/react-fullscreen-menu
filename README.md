@@ -6,7 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [![NPM](https://img.shields.io/npm/v/@colpi/react-fullscreen-menu.svg)](https://www.npmjs.com/package/@colpi/react-fullscreen-menu) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-<a href="https://codesandbox.io/s/react-fullscreen-menu-weil3" target="_blank">**\*\*\***DEMO**\*\*\*\***</a>
+## Demo & examples
+
+Live demo: [piero80/react-fullscreen-menu](https://codesandbox.io/s/react-fullscreen-menu-weil3)
 
 ![alt text](https://github.com/piero80/react-fullscreen-menu/blob/master/example/public/screen.png?raw=true)
 
