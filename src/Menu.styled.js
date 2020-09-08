@@ -8,11 +8,16 @@ export const StyledMenu = styled.section`
   position: fixed;
   top: 0;
   z-index: 9999;
-  display: ${({ open }) => (open ? 'inline-block' : 'none')};
   overflow: auto;
   width: 100%;
   height: 100%;
   background: #fff;
+  opacity: ${({ open }) => (open ? '1' : '0')};
+  transition: ${({ open }) =>
+    open ? 'all 0.5s ease 0s' : 'all 0.5s ease 0s;'};
+  transform:  ${({ open }) =>
+    open ? 'translate3d(0px, 0px, 0px);' : 'translate3d(-100%, 0px, 0px);'}; 
+}
 
   .menu_mobile {
     width: 100%;
