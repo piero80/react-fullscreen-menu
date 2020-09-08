@@ -125,6 +125,30 @@ function Example {
 **position: string** (required) <br />
 **colorIcon: string** (required)
 
+## Running Locally
+
+clone repo
+
+`git clone git@github.com:piero80/react-fullscreen-menu.git`
+
+move into folder
+
+`cd ~/react-fullscreen-menu`
+
+install dependencies
+
+`npm install`
+
+move into folder example
+
+`cd ~/react-fullscreen-menu/example`
+
+run dev mode
+
+`npm start`
+
+open your browser and visit: `http://localhost:3000/`
+
 ## License
 
 (MIT) © [piero80/react-fullscreen-menu](https://github.com/piero80/react-fullscreen-menu)
