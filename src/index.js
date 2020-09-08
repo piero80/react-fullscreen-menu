@@ -1,6 +1,6 @@
 import React, { useState, Fragment } from 'react'
 import { StyledIcon, SVG } from './Icon.styled'
-import { StyledMenu, StyledContainer } from './Menu.styled'
+import { StyledMenu } from './Menu.styled'
 
 import { ReactComponent as CloseIcon } from './images/close.svg'
 import { ReactComponent as BackIcon } from './images/back.svg'
@@ -9,16 +9,14 @@ export const FullscreenMenu = ({ data, position, colorIcon }) => {
   const [open, setOpen] = useState(false)
 
   return (
-    <StyledContainer>
-      <MenuBurger
-        open={open}
-        setOpen={setOpen}
-        position={position}
-        colorIcon={colorIcon}
-      >
-        <Menu open={open} data={data} setOpen={setOpen}></Menu>
-      </MenuBurger>
-    </StyledContainer>
+    <MenuBurger
+      open={open}
+      setOpen={setOpen}
+      position={position}
+      colorIcon={colorIcon}
+    >
+      <Menu open={open} data={data} setOpen={setOpen}></Menu>
+    </MenuBurger>
   )
 }
 
